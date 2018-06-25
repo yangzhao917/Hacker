@@ -31,10 +31,6 @@ __注意：版本更新后建议在hexo生成前执行一次`hexo clean`，清�
 在主题配置文件`_config.yml`中：
 
 ```yaml
-# duoshuo comment
-duoshuo: true
-duoshuo_name:
-
 # disqus comment
 disqus: false
 disqus_shortname:
@@ -42,10 +38,6 @@ disqus_shortname:
 # google analytics
 googleTrackId:
 ```
-
-
-`duoshuo`: `boolean`，是否开启多说评论；  
-`duoshuo_name`: `string`，你的多说用户ID，请不要使用别人的ID。  
 
 `disqus`: `boolean`，是否开启disqus评论；  
 `disqus_shortname`: `string`，你的disqus site shortname。  

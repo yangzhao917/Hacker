@@ -32,10 +32,6 @@ __Notice: After every update, you'd better run command `hexo clean` to clean cac
 In the theme configuration file `_config.yml`:
 
 ```yaml
-# duoshuo comment
-duoshuo: true
-duoshuo_name:
-
 # disqus comment
 disqus: false
 disqus_shortname:
@@ -44,9 +40,6 @@ disqus_shortname:
 googleTrackId:
 ```
 
-
-`duoshuo`: `boolean`, use duoshuo or not;  
-`duoshuo_name`: `string`, your duoshup ID, please don't use other people's IDs。
 
 `disqus`: `boolean`, use disqus or not;  
 `disqus_shortname`: your disqus site shortname.
