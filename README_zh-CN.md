@@ -39,6 +39,12 @@ disqus_shortname:
 googleTrackId:
 ```
 
+`gitment`: `boolean`，是否开启gitment评论
+`gitment_owner`: `string`，你的 GitHub ID
+`gitment_repo`: `string`，存储评论的 repo
+`gitment_client_id`: `string`，你的 client ID
+`gitment_client_secret`: `string`，你的 client secret
+
 `disqus`: `boolean`，是否开启disqus评论；  
 `disqus_shortname`: `string`，你的disqus site shortname。  
 

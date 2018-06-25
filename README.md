@@ -40,6 +40,11 @@ disqus_shortname:
 googleTrackId:
 ```
 
+`gitment`: `boolean`，use gitment or not
+`gitment_owner`: `string`，your GitHub ID
+`gitment_repo`: `string`，the repo to store comment data
+`gitment_client_id`: `string`，your client ID
+`gitment_client_secret`: `string`，your client secret
 
 `disqus`: `boolean`, use disqus or not;  
 `disqus_shortname`: your disqus site shortname.
