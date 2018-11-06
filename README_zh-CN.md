@@ -38,6 +38,11 @@ gitment_repo:
 gitment_client_id:
 gitment_client_secret:
 
+# valine comment
+valine: false
+leancloud_id:
+leancloud_key:
+
 # disqus comment
 disqus: false
 disqus_shortname:
@@ -51,6 +56,10 @@ googleTrackId:
 `gitment_repo`: `string`，存储评论的 repo  
 `gitment_client_id`: `string`，你的 client ID  
 `gitment_client_secret`: `string`，你的 client secret  
+
+`valine`: `boolean`，是否开启 Valine 评论  
+`leancloud_id`: `string`，你的 leancloud ID  
+`leancloud_key`: `string`，你的 leancloud Key  
 
 `disqus`: `boolean`，是否开启disqus评论；  
 `disqus_shortname`: `string`，你的disqus site shortname。  
