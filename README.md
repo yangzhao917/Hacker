@@ -39,6 +39,11 @@ gitment_repo:
 gitment_client_id:
 gitment_client_secret:
 
+# valine comment
+valine: false
+leancloud_id:
+leancloud_key:
+
 # disqus comment
 disqus: false
 disqus_shortname:
@@ -52,6 +57,10 @@ googleTrackId:
 `gitment_repo`: `string`，the repo to store comment data  
 `gitment_client_id`: `string`，your client ID  
 `gitment_client_secret`: `string`，your client secret  
+
+`valine`: `boolean`, use Valine or not  
+`leancloud_id`: `string`, your leancloud ID  
+`leancloud_key`: `string`, your leancloud Key  
 
 `disqus`: `boolean`, use disqus or not;  
 `disqus_shortname`: your disqus site shortname.
