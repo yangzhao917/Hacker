@@ -9,6 +9,14 @@ gitment_repo:
 gitment_client_id:
 gitment_client_secret:
 
+# gitalk
+gitalk: false
+gitalk_owner:
+gitalk_admin: []
+gitalk_repo:
+gitalk_client_id:
+gitalk_client_secret:
+
 # valine comment
 valine: false
 leancloud_id: 

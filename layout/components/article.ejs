@@ -95,6 +95,6 @@
     <% } %>
   </div>
 </article>
-<% if (!index && (theme.disqus || theme.gitment || theme.valine)) { %>
+<% if (!index) { %>
   <%- partial('comment') %>
 <% } %>
