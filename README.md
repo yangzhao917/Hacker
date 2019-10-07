@@ -7,7 +7,8 @@ __Hacker is a simple blog theme focused on writing. In such a trend of complex t
 The beginning is [moyo](http://liuxinyu.me/) created a theme of Wordpress , by DaraW transplanted to Hexo.
 
 ## Demo
-You can refer to my blog: [DaraW](http://blog.daraw.cn/)  
+You can refer to my blog: [DaraW](http://blog.daraw.cn/).  
+Also, you can try auto-deployment with TravisCI, refer to [CodeDaraW/Blog](https://github.com/CodeDaraW/Blog)。
 
 ![](https://ooo.0o0.ooo/2016/08/04/57a306f56bee2.png
 )
@@ -111,39 +112,6 @@ menu:
   Categories: /categories
   Tags: /tags
 ```
-
-## Update
-### v1.3.0
-* Add support for gitalk & valine
-
-### v1.2.0
-* Add support for Gitment
-* Remove duoshuo
-
-### v1.1.0
-* Add support for closing article comments ([issue#14](https://github.com/CodeDaraW/Hacker/issues/14))
-* Add support for categories and tags ([issue#7](https://github.com/CodeDaraW/Hacker/issues/7))
-
-### v1.0.1
-* fix incorrect comment link on the home page
-
-### v1.0
-* fix bug caused by subdirectory ([issue#10](https://github.com/CodeDaraW/Hacker/issues/10))
-* fix display of `code` tag
-
-
-### v0.3
-* Refactor ejs template files
-* Replace css with stylus
-* Add English Version README
-
-
-### v0.2
-* Remove some useless css
-* Fix bug that icon still shows when there are no categories or tags
-* Rewrite the archive index page
-* Change the display of code block
-
 
 ## License
 GNU GPL(General Public License) v2.0
