@@ -28,7 +28,7 @@ __注意：版本更新后建议在hexo生成前执行一次`hexo clean`，清�
 
 ## 配置
 ### 启用评论和谷歌分析
-在主题配置文件`_config.yml`中：
+参考 `_config.example.yml` 配置案例，创建主题配置文件 `_config.yml` 并编辑：
 
 ```yaml
 # gitment
@@ -37,6 +37,14 @@ gitment_owner:
 gitment_repo:
 gitment_client_id:
 gitment_client_secret:
+
+# gitalk
+gitalk: false
+gitalk_owner:
+gitalk_admin: []
+gitalk_repo:
+gitalk_client_id:
+gitalk_client_secret:
 
 # valine comment
 valine: false
@@ -56,6 +64,13 @@ googleTrackId:
 `gitment_repo`: `string`，存储评论的 repo  
 `gitment_client_id`: `string`，你的 client ID  
 `gitment_client_secret`: `string`，你的 client secret  
+
+`gitalk`: `boolean`，是否开启 gitalk 评论  
+`gitalk_owner`: `string`，你的 GitHub ID  
+`gitalk_admin`: `array`，所有管理员 GitHub ID  
+`gitalk_repo`: `string`，存储评论的 repo  
+`gitalk_client_id`: `string`，你的 client ID  
+`gitalk_client_secret`: `string`，你的 client secret  
 
 `valine`: `boolean`，是否开启 Valine 评论  
 `leancloud_id`: `string`，你的 leancloud ID  
@@ -95,6 +110,9 @@ menu:
 ```
 
 ## 更新
+### v1.3.0
+* 增加 `gitalk` 和 `valine` 支持
+
 ### v1.2.0
 * 增加`gitment`支持
 * 移除多说

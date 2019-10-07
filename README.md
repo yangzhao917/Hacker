@@ -29,7 +29,8 @@ __Notice: After every update, you'd better run command `hexo clean` to clean cac
 
 ## Configure
 ### Enable comments and Google Analytics
-In the theme configuration file `_config.yml`:
+Refering to the example configuration file `_config.example.yml`, 
+create the theme configuration file `_config.yml` and edit it:
 
 ```yaml
 # gitment
@@ -38,6 +39,14 @@ gitment_owner:
 gitment_repo:
 gitment_client_id:
 gitment_client_secret:
+
+# gitalk
+gitalk: false
+gitalk_owner:
+gitalk_admin: []
+gitalk_repo:
+gitalk_client_id:
+gitalk_client_secret:
 
 # valine comment
 valine: false
@@ -57,6 +66,14 @@ googleTrackId:
 `gitment_repo`: `string`，the repo to store comment data  
 `gitment_client_id`: `string`，your client ID  
 `gitment_client_secret`: `string`，your client secret  
+
+`gitalk`: `boolean`，use gitalk or not  
+`gitalk_owner`: `string`，your GitHub ID  
+`gitalk_admin`: `array`，all the admin GitHub IDs  
+`gitalk_repo`: `string`，the repo to store comment data 
+`gitalk_client_id`: `string`，your client ID 
+`gitalk_client_secret`: `string`，your client secret  
+
 
 `valine`: `boolean`, use Valine or not  
 `leancloud_id`: `string`, your leancloud ID  
@@ -96,6 +113,9 @@ menu:
 ```
 
 ## Update
+### v1.3.0
+* Add support for gitalk & valine
+
 ### v1.2.0
 * Add support for Gitment
 * Remove duoshuo
