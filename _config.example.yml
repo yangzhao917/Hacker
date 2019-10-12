@@ -19,8 +19,8 @@ gitalk_client_secret:
 
 # valine comment
 valine: false
-leancloud_id: 
-leancloud_key: 
+leancloud_id:
+leancloud_key:
 
 # disqus comment
 disqus: false
@@ -28,3 +28,6 @@ disqus_shortname:
 
 # google analytics
 googleTrackId:
+
+# whether to show read more button when showing article in excerpt in main page
+read_more: false
