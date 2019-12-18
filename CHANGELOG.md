@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0 - 2019.12.18
+* Add support for dark mode
+
 ## 1.3.0 - 2019.10.7
 * Add support for gitalk & valine
 
