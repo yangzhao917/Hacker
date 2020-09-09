@@ -60,6 +60,9 @@ disqus_shortname:
 
 # google analytics
 googleTrackId:
+
+# baidu analytics
+baiduTrackId:
 ```
 
 `gitment`: `boolean`，use gitment or not  
@@ -84,6 +87,7 @@ googleTrackId:
 `disqus_shortname`: your disqus site shortname.
 
 `googleTrackId`: your Google Analytics ID, Hacker will not use Google Analytics if it's empty.
+`baiduTrackId`: your Baidu Analytics ID, Hacker will not use Baidu Analytics if it's empty.
 
 ### Enable Categories and Tags pages
 Categories Page: run `hexo new page categories`，then modify the generated file `source/categories/index.md`：

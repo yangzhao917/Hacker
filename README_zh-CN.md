@@ -59,6 +59,9 @@ disqus_shortname:
 
 # google analytics
 googleTrackId:
+
+# baidu analytics
+baiduTrackId:
 ```
 
 `gitment`: `boolean`，是否开启 Gitment 评论  
@@ -82,6 +85,7 @@ googleTrackId:
 `disqus_shortname`: `string`，你的 Disqus Site Shortname。  
 
 `googleTrackId`: `string`，为谷歌分析的个人ID，留空则为不使用谷歌分析。
+`baiduTrackId`: `string`, 为百度统计的个人ID,留空则为不是用谷歌分析。
 
 ### 启用分类和标签页面
 分类功能：执行 `hexo new page categories` ，然后修改生成的 `source/categories/index.md` ：
