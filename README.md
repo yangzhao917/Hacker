@@ -117,5 +117,10 @@ menu:
   Tags: /tags
 ```
 
+## Automation Deploy
+
+To avoid the conflict, i added `_config.xml` to `gitignore`. so if you want to deploy the blog through automated tools, please remove `_config.xml` from `gitignore` or add symbolic link.
+
 ## License
+
 GNU GPL(General Public License) v2.0

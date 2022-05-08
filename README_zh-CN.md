@@ -117,5 +117,10 @@ menu:
   Tags: /tags
 ```
 
+## 自动化部署
+
+为了避免冲突, 我将`_config.xml` 添加到了`gitignore`中, 所以如果你想通过自动化工具来部署博客, 你可以将`_config.xml`从`gitignore`中移除或添加软链.
+
 ## 协议
+
 GNU GPL(General Public License) v2.0
