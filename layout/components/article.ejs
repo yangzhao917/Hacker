@@ -86,12 +86,12 @@
 
     </div>
 
-    <% if (index && (theme.disqus || theme.gitment || theme.valine)) { %>
+    <% if (index && (theme.disqus || theme.gitment || theme.valine || theme.utterances)) { %>
     <div class="article-meta pull-right">
       <span>
         <i class="icon-comments"></i>
         <span>
-          <a href="<%- config.root %><%- item.path %>#comment"><%- __('comment') %></a>
+          <a href="<%- config.root %><%- item.path %>#comment"><%- __('comment', { item }) %></a>
         </span>
       </span>
     </div>

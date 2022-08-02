@@ -34,3 +34,6 @@ baiduTrackId:
 
 # whether to show read more button when showing article in excerpt in main page
 read_more_btn: false
+
+utterances: false
+utterances_repo:
